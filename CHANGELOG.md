@@ -1,0 +1,234 @@
+## [1.4.2] - 18 July 2022
+- Improve generic extension type
+- add `length` param to `SuraFormValidator.validateField`
+
+## [1.4.1] - 28 June 2022
+- Add `LoadingOverlayPopScope`
+- Add `WidgetDisposer`
+- fix `Divider0` and add background to default LoadingOverlay widget
+- Deprecated `LoadingOverlayBuilder`
+
+
+## [1.4.0] - 13 June 2022
+- add `ValueNotifierWrapper`
+- Bump dependency to Dart 17.0 and Flutter 3.0
+
+## [1.3.1] - 4 June 2022
+- Minor bug fixes and improvement
+
+## [1.3.0] - 4 June 2022
+- `SuraResponsive.value` and `SuraResponsive.auto` now support `context` as a new parameter
+- `SuraUtils.getByteFromAsset` doesn't run image codec if width isn't provided
+- `EllipsisText` replacement text can now inherit from `SuraProvider`
+- `SuraRaisedButton` width now unchanged when loading
+- Update mouse cursor on all Buttons
+- Improve documentation and some error message
+- #### Breaking change:
+  - `SuraAccordion` and `SuraExpandable` state now working as `Slider` or `CheckBox` that you have to manage it's state by yourself.  new param will be required.
+
+## [1.2.1] - 24 May 2022
+- update `SuraResponsive.builder`
+## [1.2.0] - 26 April 2022
+
+Breaking change
+
+- remove `onFutureManagerError` from `SuraProvider`. Using `SuraManagerProvider` instead
+
+## [1.1.4] - 23 April 2022
+
+- add `builder`, `isMobile` and `isTablet` to SuraResponsive
+
+## [1.1.3] - 21 April 2022
+
+- `SuraResponsive.value` now calculate desktop value if value is null
+- add **auto** method to `SuraResponsive`
+- add `SuraColor.fromHexCode`
+
+## [1.1.2] - 13 April 2022
+
+- fix `Divider0` is not export
+- Add `popAll` to SuraPageNavigator
+
+## [1.1.1] - 4 April 2022
+
+- Add `SuraLogger`
+- Add `Divider0`
+- Add `EllipsisText`
+- Add `Debouncer`
+- Add `showSuraSimpleDialog`
+
+## [1.1.0] - 3 April 2022
+
+- Add `LoadingOverlay`
+- Add `SuraAsyncIconButton`
+- Add more extension methods
+- Improve documentation
+
+## [1.0.5] - 18 February 2022
+
+- Adjust `SuraResponsiveBuilder`
+
+## [1.0.4] - 17 February 2022
+
+- fix a bug in `SuraJwtDecoder` where exp can be null
+- rework some value in SuraResponsive
+- Rename extension name and add more extension method
+
+## [1.0.3] - 13 February 2022
+
+- add `SuraResponsive`
+
+## [1.0.2] - 10 February 2022
+
+- add [name] param to `SuraPageNavigator`
+- add **emptySizedBox** widget
+- code improvement
+
+## [1.0.1] - 4 February 2022
+
+- Export `KeyboardDismiss`
+
+## [1.0.0] - 3 February 2022
+
+- Stable 1.0.0 Release
+- Fix `SuraAsyncButton` fullWidth is not working
+- Add Flutter lints
+
+## [0.5.1] - 1 December 2021
+
+- add onFutureManagerError to SuraProvider
+
+## [0.5.0] - 20 October 2021
+
+- breaking change:
+  - PageNavigator has been change to SuraPageNavigator
+- Add routeSetting param to SuraPageNavigator
+
+## [0.4.3] - 28 September 2021
+
+- Add error widget to Paginated Widget
+
+## [0.4.2] - 19 September 2021
+
+- Add new feature on paginated widget to be able to attach scroll controller to ListView
+
+## [0.4.1] - 21 August 2021
+
+- fix listenable extension build method
+
+## [0.4.0] - 18 August 2021
+
+- add Listenable extension
+- Fix Paginated Widget bug
+- Major code improvement, MIGHT HAVE SOME BREAKING CHANGE
+
+## [0.3.1] - 27 July 2021
+
+- add refresh function to SuraProvider error widget
+
+## [0.3.0] - 25 June 2021
+
+- BREAKING CHANGE:
+  - remove FutureManager, AsyncSubjectManager, FutureManagerBuilder
+  - All manager class now has a separate package
+
+## [0.2.6+1] - 21 June 2021
+
+- SuraStreamHandler now can have a type of non-nullable type
+- expose addError method in FutureManager
+- bump version of dependency
+
+## [0.2.5] - 05 June 2021
+
+- Add when function to FutureManagerBuilder and AsyncSubjectManager
+- fix PlatformChecker
+- BREAKING CHANGE
+  - rename SuraTheme to SuraProvider
+
+## [0.2.4] - 27 May 2021
+
+- Most button's onPressed or OnTap are nullable
+- Add FutureFunction to SuraFutureHandler
+
+## [0.2.3] - 25 May 2021
+
+- Update Manager null safety
+
+## [0.2.2] - 25 May 2021
+
+- Fix subject manager bug
+
+## [0.2.1] - 25 May 2021
+
+- update type to FutureOr<T> of successCallBack in Manager
+- Improve example and Documentation
+
+## [0.2.0] - 22 May 2021
+
+- UPGRADE TO NULL SAFETY
+
+## [0.1.5] - 19 May 2021
+
+- Add default Color to SuraColor
+- Rename NotifierMixin to BoolNotifierMixin and can add value to toggle loading
+
+## [0.1.4] - 10 April 2021
+
+- fix FutureManager error when call refresh
+
+## [0.1.3] - 04 April 2021
+
+- fix SuraListTile subtitle text color
+
+## [0.1.2] - 25 March 2021
+
+- Add documentation
+- add throwError to FutureManager
+
+## [0.1.1] - 15 March 2021
+
+- Add FutureManager
+- Add AsyncSubjectManager
+- Add FutureManagerBuilder
+- Breaking change:
+  - SuraStyle change to SuraDecoration
+
+## [0.0.8] - 6 March 2021
+
+- Add textColor property to SuraFlatButton,SuraRaisedButton and SuraAsyncButton
+
+## [0.0.7] - 4 March 2021
+
+- Improve pub score
+
+## [0.0.6] - 4 March 2021
+
+- add SuraDecoder
+- improve SuraAsyncButton
+
+## [0.0.5] - 3 March 2021
+
+- Code improvement
+- add buttonColor to SuraSimpleDialog
+- update SuraFlatButton
+
+## [0.0.4] - 28 February 2021
+
+- Code improvement
+
+## [0.0.3] - 28 February 2021
+
+- add **SuraPaginatedList**
+- add **SuraPaginatedGridBuilder**
+
+## [0.0.2] - 28 February 2021
+
+- code improvement
+- improve README
+- add **SuraFormValidator**
+- add **SuraActionSheet**
+- rework **SuraColor**
+
+## [0.0.1] - 27 February 2021
+
+- initial release

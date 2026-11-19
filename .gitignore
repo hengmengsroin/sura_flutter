@@ -1,0 +1,9 @@
+.dart_tool/
+.packages
+build/
+.DS_Store
+*.iml
+.idea/
+.vscode/
+example/.dart_tool/
+example/build/
